@@ -171,6 +171,8 @@
 ​
                             @endslot
                         @endcard
+
+                        {{$seats->links()}}
                     </div>
                 </div>
             </div>
