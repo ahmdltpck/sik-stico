@@ -18,10 +18,10 @@ class CreateEmployeesTable extends Migration
             $table->string('code')->unique();
             $table->string('name');
             $table->string('gender');
-            $table->string('birthDate');
+            $table->date('birthDate');
             $table->integer('charge');
-            $table->integer('mobile');
-            $table->string('email');
+            $table->string('mobile')->unique();
+            $table->string('email')->nullable();
             $table->string('height');
             $table->string('weight');
             $table->string('photo');

@@ -20,5 +20,5 @@ Route::resource('/keahlian', 'SpecialistController')->except('create', 'show');
 Route::resource('/dokter', 'DoctorController');
 Route::resource('/pasien', 'PatientController');
 Route::resource('/kasur', 'SeatController')->except('create', 'show');
-
+Route::resource('/pegawai', 'EmployeeController');
 Route::resource('/test', 'TestController');
